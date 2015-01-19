@@ -1,0 +1,7 @@
+CA/certs/*.crt
+CA/index.*
+CA/crlnumber
+CA/serial*
+CA/newcerts/*.pem
+CA/private/*.key
+CA/p12/*.p12

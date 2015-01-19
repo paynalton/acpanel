@@ -1,0 +1,2 @@
+openssl req -config openssl.cnf -new -x509 -extensions v3_ca -keyout private/ca.key -out certs/ca.crt -days 3650
+chmod 0400 private/ca.key

@@ -9,3 +9,8 @@ ln -s /home/ubuntu/acpanel/etc/apache2/sites-enabled /etc/apache2/
 ln -s /etc/apache2/mods-available/socache_shmcb.load /etc/apache2/mods-enabled/
 ln -s /etc/apache2/mods-available/ssl.conf /etc/apache2/mods-enabled/
 ln -s /etc/apache2/mods-available/ssl.load /etc/apache2/mods-enabled/
+aptitude update
+aptitude install php5
+touch CA/index.txt
+echo '01' > CA/serial
+echo '01' > CA/crlnumber
